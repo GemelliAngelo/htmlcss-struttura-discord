@@ -26,6 +26,14 @@ footer {
   height: 700px;
 }
 
+/* DEBUG */
+
+.debug {
+  background-color: #d7a522;
+  height: 300px;
+  width: 500px;
+}
+
 /* UTILS */
 
 .container {
@@ -135,4 +143,12 @@ section:nth-child(even) {
 
 #last-main-container {
   height: 900px;
+}
+
+/* FOOOTER */
+
+.big-footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
