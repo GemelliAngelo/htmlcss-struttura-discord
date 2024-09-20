@@ -10,6 +10,13 @@ body {
   background-color: white;
 }
 
+nav {
+  padding: 10px 0;
+  text-align: center;
+  flex-shrink: 1;
+  max-width: 100%;
+}
+
 /* # UTILS */
 
 .container {
@@ -22,8 +29,37 @@ body {
 /* HEADER */
 
 .upper-header {
+  background-color: #acd6e4;
+  padding: 10px 0;
+}
+
+.info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d7a522;
+}
+
+.logo {
+  padding: 5px;
+  border: 2px dashed black;
+  width: 200px;
+  max-width: 100%;
+}
+
+.link-list {
+  padding: 2px;
+  border: 2px dashed black;
+  width: 600px;
+  max-width: 100%;
+}
+
+.login {
+  padding: 5px;
+  border: 2px dashed black;
+  width: 200px;
+  max-width: 100%;
+  text-align: end;
 }
 
 .link-list {
@@ -31,6 +67,7 @@ body {
   list-style-type: none;
 }
 
-.link-list-item {
+.link-item {
   display: inline-block;
+  margin: 3px;
 }
