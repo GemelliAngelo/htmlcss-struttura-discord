@@ -8,12 +8,11 @@
 
 body {
   background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
-  padding: 10px 0;
   text-align: center;
-  flex-shrink: 1;
   max-width: 100%;
 }
 
@@ -30,7 +29,8 @@ nav {
 
 .upper-header {
   background-color: #acd6e4;
-  padding: 10px 0;
+  padding: 20px 0;
+  font-size: 1.3rem;
 }
 
 .info {
@@ -38,36 +38,50 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #d7a522;
+  padding: 0px;
 }
 
 .logo {
-  padding: 5px;
+  padding: 10px;
   border: 2px dashed black;
   width: 200px;
   max-width: 100%;
 }
 
 .link-list {
-  padding: 2px;
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
   border: 2px dashed black;
   width: 600px;
   max-width: 100%;
 }
 
 .login {
-  padding: 5px;
+  padding: 10px;
   border: 2px dashed black;
   width: 200px;
   max-width: 100%;
   text-align: end;
 }
 
-.link-list {
-  display: inline-block;
-  list-style-type: none;
-}
-
 .link-item {
   display: inline-block;
-  margin: 3px;
+  margin: 0 3px;
+}
+
+.bottom-header {
+  display: flex;
+  background-color: #010088;
+  height: 450px;
+  padding: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  background-color: #ec81eb;
+  border: 2px dashed black;
+  height: 350px;
+  width: 700px;
 }
