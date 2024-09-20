@@ -13,10 +13,20 @@ body {
 
 nav {
   text-align: center;
-  max-width: 100%;
+  width: 60%;
 }
 
-/* SUTILS */
+.box {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #222629;
+  height: 700px;
+}
+
+/* UTILS */
 
 .container {
   margin: 0 auto;
@@ -29,7 +39,7 @@ nav {
 
 .upper-header {
   background-color: #acd6e4;
-  padding: 19px 0;
+  padding: 10px 0;
   font-size: 1.3rem;
 }
 
@@ -42,25 +52,25 @@ nav {
 }
 
 .logo {
-  padding: 10px;
+  padding: 5px;
   border: 2px dashed black;
-  width: 200px;
+  width: 20%;
   max-width: 100%;
 }
 
 .link-list {
   display: inline-block;
   list-style-type: none;
-  padding: 10px;
+  padding: 5px;
   border: 2px dashed black;
-  width: 600px;
+  width: 100%;
   max-width: 100%;
 }
 
 .login {
-  padding: 10px;
+  padding: 5px;
   border: 2px dashed black;
-  width: 200px;
+  width: 20%;
   max-width: 100%;
   text-align: end;
 }
@@ -89,7 +99,7 @@ nav {
 /* MAIN */
 
 .box {
-  height: 530px;
+  height: 500px;
 }
 
 section:nth-child(even) {
@@ -112,4 +122,17 @@ section:nth-child(even) {
   width: 40%;
   background-color: #f9bfcb;
   border: 2px dashed black;
+}
+
+.box:last-child {
+  height: 1000px;
+}
+
+.big-column:only-child {
+  background-color: #228822;
+  width: 100%;
+}
+
+#last-main-container {
+  height: 900px;
 }
