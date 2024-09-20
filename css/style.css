@@ -88,10 +88,28 @@ nav {
 
 /* MAIN */
 
-section {
+.box {
   height: 530px;
 }
 
 section:nth-child(even) {
   background-color: #d2d2d2;
+}
+
+.box .container {
+  display: flex;
+  height: 450px;
+  padding: 40px 0;
+}
+
+.big-column {
+  width: 60%;
+  background-color: #1e8ff7;
+  border: 2px dashed black;
+}
+
+.small-column {
+  width: 40%;
+  background-color: #f9bfcb;
+  border: 2px dashed black;
 }
