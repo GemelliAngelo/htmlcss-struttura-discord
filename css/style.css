@@ -102,7 +102,7 @@ footer {
   height: 500px;
 }
 
-section:nth-child(even) {
+main > section:nth-child(even) {
   background-color: #d2d2d2;
 }
 
@@ -174,5 +174,5 @@ footer > .container {
 }
 
 .small-footer-box > .container {
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
 }
