@@ -26,14 +26,6 @@ footer {
   height: 700px;
 }
 
-/* DEBUG */
-
-.debug {
-  background-color: #d7a522;
-  height: 300px;
-  width: 500px;
-}
-
 /* UTILS */
 
 .container {
@@ -151,4 +143,24 @@ section:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer > .container {
+  padding: 10px 0;
+}
+
+.footer-small-column {
+  width: 30%;
+  background-color: #ee8081;
+  border: 2px dashed black;
+}
+
+.big-footer-box > .container {
+  height: 550px;
+}
+
+.footer-big-column {
+  width: 70%;
+  background-color: #1fafa6;
+  border: 2px dashed white;
 }
