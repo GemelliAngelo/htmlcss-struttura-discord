@@ -156,11 +156,23 @@ footer > .container {
 }
 
 .big-footer-box > .container {
-  height: 550px;
+  display: flex;
+  height: 510px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-big-column {
+  display: flex;
   width: 70%;
   background-color: #1fafa6;
+}
+
+.smaller-column {
   border: 2px dashed white;
+  width: 25%;
+}
+
+.small-footer-box > .container {
+  border-bottom: 1px solid white;
 }
