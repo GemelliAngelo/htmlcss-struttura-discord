@@ -16,7 +16,7 @@ nav {
   max-width: 100%;
 }
 
-/* # UTILS */
+/* SUTILS */
 
 .container {
   margin: 0 auto;
@@ -29,7 +29,7 @@ nav {
 
 .upper-header {
   background-color: #acd6e4;
-  padding: 20px 0;
+  padding: 19px 0;
   font-size: 1.3rem;
 }
 
@@ -84,4 +84,14 @@ nav {
   border: 2px dashed black;
   height: 350px;
   width: 700px;
+}
+
+/* MAIN */
+
+section {
+  height: 530px;
+}
+
+section:nth-child(even) {
+  background-color: #d2d2d2;
 }
