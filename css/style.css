@@ -23,7 +23,7 @@ nav {
 
 footer {
   background-color: #222629;
-  height: 700px;
+  height: 630px;
 }
 
 /* UTILS */
@@ -158,7 +158,7 @@ footer > .container {
 .big-footer-box > .container {
   display: flex;
   height: 510px;
-  padding: 20px;
+  padding: 20px 0;
   margin-bottom: 20px;
 }
 
@@ -173,6 +173,42 @@ footer > .container {
   width: 25%;
 }
 
+.small-footer-box {
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+}
+
 .small-footer-box > .container {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  padding: 0;
   border-top: 2px solid white;
+}
+
+.small-footer-box > .container > .container {
+  height: fit-content;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #7ffed5;
+}
+
+.footer-button {
+  text-align: end;
+  background-color: #f8b4c3;
+  width: fit-content;
+  border: 2px dashed black;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+}
+
+.footer-logo {
+  background-color: #f8b4c3;
+  width: fit-content;
+  border: 2px dashed black;
+  padding: 5px 10px;
+  font-size: 1.4rem;
 }
