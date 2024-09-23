@@ -21,11 +21,6 @@ nav {
   align-items: center;
 }
 
-footer {
-  background-color: #222629;
-  height: 630px;
-}
-
 /* UTILS */
 
 .container {
@@ -59,7 +54,6 @@ footer {
 
 .link-list {
   display: inline-block;
-  list-style-type: none;
   padding: 5px;
   border: 2px dashed black;
   width: 100%;
@@ -82,8 +76,7 @@ footer {
 .bottom-header {
   display: flex;
   background-color: #010088;
-  height: 450px;
-  padding: 30px 0;
+  padding: 40px 0;
   justify-content: center;
   align-items: center;
 }
@@ -91,14 +84,14 @@ footer {
 .header-content {
   background-color: #ec81eb;
   border: 2px dashed black;
-  height: 350px;
+  min-height: 350px;
   width: 700px;
 }
 
 /* MAIN */
 
-.box {
-  height: 500px;
+.box:nth-child(even) > .container {
+  flex-direction: row-reverse;
 }
 
 main > section:nth-child(even) {
@@ -107,7 +100,7 @@ main > section:nth-child(even) {
 
 .box .container {
   display: flex;
-  height: 450px;
+  min-height: 450px;
   padding: 40px 0;
 }
 
@@ -123,17 +116,13 @@ main > section:nth-child(even) {
   border: 2px dashed black;
 }
 
-.box:last-child {
-  height: 1000px;
-}
-
 .big-column:only-child {
   background-color: #228822;
   width: 100%;
 }
 
 #last-main-container {
-  height: 900px;
+  min-height: 900px;
 }
 
 /* FOOOTER */
@@ -142,6 +131,7 @@ main > section:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #222629;
 }
 
 footer > .container {
@@ -156,7 +146,7 @@ footer > .container {
 
 .big-footer-box > .container {
   display: flex;
-  height: 510px;
+  min-height: 510px;
   padding: 20px 0;
   margin-bottom: 20px;
 }
@@ -175,19 +165,18 @@ footer > .container {
 .small-footer-box {
   display: flex;
   align-items: flex-end;
-  height: 100px;
+  min-height: 100px;
+  background-color: #222629;
 }
 
 .small-footer-box > .container {
   display: flex;
   align-items: flex-end;
-  height: 100%;
-  padding: 0;
+  padding: 20px 0;
   border-top: 2px solid white;
 }
 
 .small-footer-box > .container > .container {
-  height: fit-content;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -195,20 +184,18 @@ footer > .container {
   background-color: #7ffed5;
 }
 
+.footer-logo {
+  background-color: #f8b4c3;
+  border: 2px dashed black;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+}
+
 .footer-button {
   text-align: end;
   background-color: #f8b4c3;
-  width: fit-content;
   border: 2px dashed black;
   padding: 5px 10px;
   font-size: 1.4rem;
   cursor: pointer;
-}
-
-.footer-logo {
-  background-color: #f8b4c3;
-  width: fit-content;
-  border: 2px dashed black;
-  padding: 5px 10px;
-  font-size: 1.4rem;
 }
