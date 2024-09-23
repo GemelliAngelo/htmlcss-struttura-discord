@@ -21,6 +21,11 @@ nav {
   align-items: center;
 }
 
+footer {
+  background-color: #222629;
+  padding-top: 10px;
+}
+
 /* UTILS */
 
 .container {
@@ -53,7 +58,6 @@ nav {
 }
 
 .link-list {
-  display: inline-block;
   padding: 5px;
   border: 2px dashed black;
   width: 100%;
@@ -69,7 +73,8 @@ nav {
 }
 
 .link-item {
-  display: inline-block;
+  text-decoration: none;
+  color: inherit;
   margin: 0 3px;
 }
 
@@ -147,7 +152,7 @@ footer > .container {
 .big-footer-box > .container {
   display: flex;
   min-height: 510px;
-  padding: 20px 0;
+  padding: 10px 0;
   margin-bottom: 20px;
 }
 
@@ -172,7 +177,7 @@ footer > .container {
 .small-footer-box > .container {
   display: flex;
   align-items: flex-end;
-  padding: 20px 0;
+  padding-top: 20px;
   border-top: 2px solid white;
 }
 
@@ -184,18 +189,10 @@ footer > .container {
   background-color: #7ffed5;
 }
 
-.footer-logo {
-  background-color: #f8b4c3;
-  border: 2px dashed black;
-  padding: 5px 10px;
-  font-size: 1.4rem;
-}
-
+.footer-logo,
 .footer-button {
-  text-align: end;
   background-color: #f8b4c3;
   border: 2px dashed black;
   padding: 5px 10px;
   font-size: 1.4rem;
-  cursor: pointer;
 }
